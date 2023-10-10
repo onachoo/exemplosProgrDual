@@ -21,7 +21,7 @@ public class ExemploArray1 {
             System.out.println(enteiro);
         }
         
-        for(i = 0; i < 7; i++){  /* ACCEDO AO VALOR EMPREGANDO O ÍNDICE */
+        for(int i = 0; i < 7; i++){  /* ACCEDO AO VALOR EMPREGANDO O ÍNDICE */
             System.out.println("O número na posición "+i+" é "+arrayEnteiros[i]);
         }
 
