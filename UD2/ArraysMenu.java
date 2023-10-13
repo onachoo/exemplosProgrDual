@@ -9,11 +9,11 @@ public class ArraysMenu {
         while(!opcion.equals("c")){
             if(opcion.equals("a")){
 
-                /* Código para introducir os números */
+                System.out.println("Teríamos aquí que introducir os 5 números");
             }
             else if(opcion.equals("b")){
 
-                /* Código para mostrar os números */
+               System.out.println("Mostramos aquí os 5 números");
             }
             System.out.println("a) Introducir os 5 números");
             System.out.println("b) Mostrar os 5 números");
