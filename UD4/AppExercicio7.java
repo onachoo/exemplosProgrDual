@@ -40,7 +40,7 @@ public class AppExercicio7 {
                 } catch (NumberFormatException e){
                     System.out.println("Houbo datos mal introducidos");
                 }
-            } while (pc.getNumeroDeSerie()==null);
+            } while (pc==null);
             
             listaOrdenadores[i]=pc;
         }
